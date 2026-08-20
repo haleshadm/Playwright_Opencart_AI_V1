@@ -1,4 +1,0 @@
-Error getting cart quantity: Error: locator.getAttribute: Test timeout of 30000ms exceeded.
-Call log:
-  - waiting for locator('input[name^="quantity"]')
-

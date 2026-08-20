@@ -1,7 +1,0 @@
-Error checking My Account page: Error: locator.isVisible: Error: strict mode violation: getByRole('heading', { name: 'My Account' }) resolved to 2 elements:
-    1) <h2>My Account</h2> aka locator('#content').getByRole('heading', { name: 'My Account' })
-    2) <h5>My Account</h5> aka getByRole('contentinfo').getByRole('heading', { name: 'My Account' })
-
-Call log:
-    - checking visibility of getByRole('heading', { name: 'My Account' })
-

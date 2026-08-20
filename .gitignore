@@ -1,0 +1,9 @@
+node_modules/
+.env
+.playwright-cli/
+allure-results/
+custom-report/
+reports/
+test-results/
+.claude/
+.commandcode/

@@ -1,1 +1,0 @@
-Customer validated across frontend, Admin, and MySQL: customer_1787139019997_Dorthy.McLaughlin@hotmail.com
