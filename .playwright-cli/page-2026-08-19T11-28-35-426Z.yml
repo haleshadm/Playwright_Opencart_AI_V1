@@ -1,0 +1,187 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link [ref=f3e6] [cursor=pointer]:
+        - /url: http://localhost/opencart/upload/admin/index.php?route=common/dashboard&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh
+        - img "OpenCart" [ref=f3e7]
+      - text: 
+      - list [ref=f3e8]:
+        - listitem [ref=f3e9]:
+          - link "John DoeJohn Doe " [ref=f3e10] [cursor=pointer]:
+            - /url: "#"
+            - img "John Doe" [ref=f3e11]
+            - text: John Doe
+            - generic [ref=f3e12]: 
+          - text:    
+        - listitem [ref=f3e13]:
+          - link " Logout" [ref=f3e14] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/admin/index.php?route=common/logout&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh
+            - generic [ref=f3e15]: 
+            - text: Logout
+  - navigation [ref=f3e16]:
+    - generic [ref=f3e17]:
+      - generic [ref=f3e18]: 
+      - text: Navigation
+    - list [ref=f3e19]:
+      - listitem [ref=f3e20]:
+        - link " Dashboard" [ref=f3e21] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/admin/index.php?route=common/dashboard&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh
+          - generic [ref=f3e22]: 
+          - text: Dashboard
+      - listitem [ref=f3e23]:
+        - link " Catalog " [ref=f3e24] [cursor=pointer]:
+          - /url: "#collapse1"
+          - generic [ref=f3e25]: 
+          - text: Catalog 
+        - text:             
+      - listitem [ref=f3e26]:
+        - link " Extensions " [ref=f3e27] [cursor=pointer]:
+          - /url: "#collapse2"
+          - generic [ref=f3e28]: 
+          - text: Extensions 
+        - text:     
+      - listitem [ref=f3e29]:
+        - link " Design " [ref=f3e30] [cursor=pointer]:
+          - /url: "#collapse3"
+          - generic [ref=f3e31]: 
+          - text: Design 
+        - text:     
+      - listitem [ref=f3e32]:
+        - link " Sales " [ref=f3e33] [cursor=pointer]:
+          - /url: "#collapse4"
+          - generic [ref=f3e34]: 
+          - text: Sales 
+        - text:       
+      - listitem [ref=f3e35]:
+        - link " Customers " [ref=f3e36] [cursor=pointer]:
+          - /url: "#collapse5"
+          - generic [ref=f3e37]: 
+          - text: Customers 
+        - text:    
+      - listitem [ref=f3e38]:
+        - link " Marketing " [ref=f3e39] [cursor=pointer]:
+          - /url: "#collapse6"
+          - generic [ref=f3e40]: 
+          - text: Marketing 
+        - text:      
+      - listitem [ref=f3e41]:
+        - link " System " [ref=f3e42] [cursor=pointer]:
+          - /url: "#collapse7"
+          - generic [ref=f3e43]: 
+          - text: System 
+        - text:                                
+      - listitem [ref=f3e44]:
+        - link " Reports " [ref=f3e45] [cursor=pointer]:
+          - /url: "#collapse8"
+          - generic [ref=f3e46]: 
+          - text: Reports 
+        - text:   
+    - list [ref=f3e48]:
+      - listitem [ref=f3e49]:
+        - generic [ref=f3e50]:
+          - text: Orders Completed
+          - generic [ref=f3e51]: 0%
+        - generic [ref=f3e52]:
+          - progressbar:
+            - generic [ref=f3e53]: 0%
+      - listitem [ref=f3e54]:
+        - generic [ref=f3e55]:
+          - text: Orders Processing
+          - generic [ref=f3e56]: 0%
+        - generic [ref=f3e57]:
+          - progressbar:
+            - generic [ref=f3e58]: 0%
+      - listitem [ref=f3e59]:
+        - generic [ref=f3e60]:
+          - text: Other Statuses
+          - generic [ref=f3e61]: 0%
+        - generic [ref=f3e62]:
+          - progressbar:
+            - generic [ref=f3e63]: 0%
+  - generic [ref=f3e64]:
+    - generic [ref=f3e66]:
+      - generic [ref=f3e67]:
+        - text: 
+        - link "" [ref=f3e68] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer/add&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&filter_email=pavanol%40xyz.com
+        - button "" [ref=f3e70] [cursor=pointer]
+      - heading "Customers" [level=1] [ref=f3e72]
+      - list [ref=f3e73]:
+        - listitem [ref=f3e74]:
+          - link "Home" [ref=f3e75] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/admin/index.php?route=common/dashboard&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh
+        - listitem [ref=f3e76]:
+          - text: 
+          - link "Customers" [ref=f3e77] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&filter_email=pavanol%40xyz.com
+    - generic [ref=f3e79]:
+      - generic [ref=f3e81]:
+        - heading " Filters" [level=3] [ref=f3e83]:
+          - generic [ref=f3e84]: 
+          - text: Filters
+        - generic [ref=f3e85]:
+          - generic [ref=f3e86]:
+            - generic [ref=f3e87]: Customer Name
+            - textbox "Customer Name" [ref=f3e88]
+          - generic [ref=f3e89]:
+            - generic [ref=f3e90]: E-Mail
+            - textbox "E-Mail" [ref=f3e91]: pavanol@xyz.com
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]: Customer Group
+            - combobox "Customer Group" [ref=f3e94]:
+              - option [selected]
+              - option "Default"
+          - generic [ref=f3e95]:
+            - generic [ref=f3e96]: Status
+            - combobox "Status" [ref=f3e97]:
+              - option [selected]
+              - option "Enabled"
+              - option "Disabled"
+          - generic [ref=f3e98]:
+            - generic [ref=f3e99]: IP
+            - textbox "IP" [ref=f3e100]
+          - generic [ref=f3e101]:
+            - generic [ref=f3e102]: Date Added
+            - generic [ref=f3e103]:
+              - textbox "Date Added" [ref=f3e104]
+              - button "" [ref=f3e106] [cursor=pointer]
+          - button " Filter" [ref=f3e109] [cursor=pointer]:
+            - generic [ref=f3e110]: 
+            - text: Filter
+      - generic [ref=f3e112]:
+        - heading " Customer List" [level=3] [ref=f3e114]:
+          - generic [ref=f3e115]: 
+          - text: Customer List
+        - generic [ref=f3e116]:
+          - table [ref=f3e119]:
+            - rowgroup [ref=f3e120]:
+              - row [ref=f3e121]:
+                - cell [ref=f3e122]:
+                  - checkbox [ref=f3e123]
+                - cell [ref=f3e124]:
+                  - link "Customer Name " [ref=f3e125] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=name&filter_email=pavanol%40xyz.com&order=DESC
+                - cell [ref=f3e126]:
+                  - link "E-Mail" [ref=f3e127] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=c.email&filter_email=pavanol%40xyz.com&order=DESC
+                - cell [ref=f3e128]:
+                  - link "Customer Group" [ref=f3e129] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=customer_group&filter_email=pavanol%40xyz.com&order=DESC
+                - cell [ref=f3e130]:
+                  - link "Status" [ref=f3e131] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=c.status&filter_email=pavanol%40xyz.com&order=DESC
+                - cell [ref=f3e132]:
+                  - link "IP" [ref=f3e133] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=c.ip&filter_email=pavanol%40xyz.com&order=DESC
+                - cell [ref=f3e134]:
+                  - link "Date Added" [ref=f3e135] [cursor=pointer]:
+                    - /url: http://localhost/opencart/upload/admin/index.php?route=customer/customer&user_token=YhABTnkzqkOp9mB75VQk2P9Rsyxb3Yuh&sort=c.date_added&filter_email=pavanol%40xyz.com&order=DESC
+                - cell "Action" [ref=f3e136]
+            - rowgroup [ref=f3e137]:
+              - row [ref=f3e138]:
+                - cell "No results!" [ref=f3e139]
+          - generic [ref=f3e140]: Showing 0 to 0 of 0 (0 Pages)
+  - contentinfo [ref=f3e143]:
+    - link "OpenCart" [ref=f3e144] [cursor=pointer]:
+      - /url: http://www.opencart.com
+    - text: © 2009-2026 All Rights Reserved.Version 3.0.4.1

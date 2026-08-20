@@ -1,0 +1,4 @@
+Error getting cart product names: Error: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('.table-bordered tbody tr').first().locator('td:nth-child(2) a')
+
